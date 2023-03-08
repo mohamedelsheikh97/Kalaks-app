@@ -1,0 +1,59 @@
+nav {
+  background-color: #fff !important;
+  width: 100% !important;
+  height: auto;
+  max-width: 100% !important;
+}
+
+nav .icon {
+  color: rgb(246, 172, 77) !important;
+}
+
+nav .logoo {
+  font-weight: bold !important;
+}
+/*Car Logo*/
+.loader .name {
+  margin-top: 15px !important;
+  letter-spacing: 0.2rem;
+}
+nav a {
+  margin-left: 20px !important;
+  color: #2b2e4a !important;
+  font-size: 25px;
+  font-weight: 550 !important;
+}
+
+nav a:hover {
+  color: rgb(246, 172, 77) !important;
+}
+
+nav #lastnav {
+  color: rgba(128, 128, 128, 0.479) !important;
+}
+
+nav #lastnav:hover {
+  color: rgb(246, 172, 77) !important;
+}
+#lastnav i {
+  color: rgb(246, 172, 77);
+}
+.fa-cart-plus {
+  color: orange;
+  margin-top: 5px;
+}
+.cart {
+  color: orange;
+}
+.nav-link {
+  font-size: 18px !important;
+}
+.logo-name {
+  font-size: 20px !important;
+}
+.fa-sign-out-alt {
+  color: red !important;
+}
+.fa-cart-plus {
+  color: #2b2e4a !important;
+}

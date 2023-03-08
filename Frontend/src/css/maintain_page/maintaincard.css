@@ -1,0 +1,53 @@
+.mcard{
+  margin: 30px 15%;
+  padding: 15px;
+  width: 70%;
+  display: flex;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.bta {
+  margin: 25px 0;
+  display: inline-block;
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  border: 2px solid rgb(246, 172, 77);
+  color: rgb(246, 172, 77);
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.bta:hover {
+  background: rgb(246, 172, 77);
+  text-decoration: none;
+  color: #fff;
+}
+
+.btb {
+  margin: 25px 0;
+  display: inline-block;
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+  background: rgb(246, 172, 77);
+
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.btb:hover {
+  background: #fff;
+  color: rgb(246, 172, 77);
+  text-decoration: none;
+  border: 2px solid rgb(246, 172, 77);
+}

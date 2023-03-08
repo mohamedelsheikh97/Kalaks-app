@@ -1,0 +1,36 @@
+.btn-color {
+  background-color: orangered !important;
+  color: #fff;
+}
+.btn-color:hover {
+  background-color: #fff !important;
+  color: orangered !important;
+  border: 1px solid orangered !important;
+}
+
+.img-thumbnail {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.cardbody-color {
+  background-color: #ebf2fa !important;
+}
+
+a {
+  text-decoration: none;
+}
+.c-a {
+  color: orangered !important;
+}
+.c-a:hover {
+  text-decoration: none;
+}
+.offset-md-3 {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+}

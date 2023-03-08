@@ -1,0 +1,41 @@
+.line {
+  width: 100% !important;
+  color: black;
+}
+.acc-color {
+  color: #2b2e4a;
+  font-weight: 700;
+  transition: 0.1s;
+}
+.filter-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem auto;
+}
+#sort {
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  font-weight: 500;
+  border: 2px solid black;
+}
+.rent-item1:hover .acc-desc {
+  color: white !important;
+}
+.rent-item1:hover .acc-color {
+  color: white !important;
+}
+.rent-item1 h4 {
+  transition: 0.1s;
+  font-size: 22px !important;
+}
+.acc-price {
+  transition: 0.1s;
+}
+.accessory-title {
+  color: #2b2e4a !important;
+}
+.acc-image-card {
+  width: 350px !important;
+}

@@ -1,0 +1,77 @@
+.rent-item {
+  padding: 30px;
+  text-align: center;
+  background: var(--light);
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 30px;
+  transition: 0.1s;
+}
+
+.rent-item:hover,
+.rent-item.active {
+  background: rgb(246, 172, 77);
+}
+
+.rent-item h4 {
+  transition: 0.1s !important;
+}
+.rent-item i {
+  transition: 0.1s !important;
+}
+.rent-item .img-fluid {
+  margin: 0 !important;
+}
+.rent-item:hover h4,
+.rent-item.active h4 {
+  color: var(--light) !important;
+}
+.rent-item:hover .px-2,
+.rent-item.active .px-2 {
+  color: var(--light) !important;
+}
+.rent-item:hover i,
+.rent-item.active i {
+  color: var(--light) !important;
+}
+.rent-item:hover a,
+.rent-item.active a {
+  color: var(--orange) !important;
+  font-size: 18px !important;
+
+  background-color: white !important;
+}
+.px-2 i {
+  color: rgb(246, 172, 77) !important;
+}
+.btn {
+  background-color: rgb(246, 172, 77) !important;
+  color: var(--light) !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  border: none !important;
+}
+.display-4 {
+  font-weight: 700 !important;
+}
+.btns button {
+  padding: 10px 25px !important;
+}
+.btns button:hover {
+  color: #f77d0a !important;
+  font-weight: 450 !important;
+  background-color: white !important;
+  border: 1px solid rgb(246, 172, 77) !important;
+  padding: 10px 25px !important;
+}
+#car-det {
+  /* color: white !important; */
+  text-decoration: none !important;
+}
+.rent-item .img-fluid {
+  margin: 0 !important;
+  width: 350px !important;
+  height: 250px !important;
+  box-shadow: 0 4px 8px #000000 !important;
+  height: auto;
+  margin: 0 auto;
+}

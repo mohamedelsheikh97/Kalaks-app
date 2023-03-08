@@ -1,0 +1,61 @@
+.become__driver {
+  background: linear-gradient(rgba(236, 168, 42, 0.6), rgba(236, 168, 42, 0.6));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+  margin-top: 50px;
+}
+
+.become__driver button {
+  background: orange;
+  color: white;
+  font-weight: 600 !important;
+}
+
+.become__driver button:hover {
+  background: white !important;
+  color: orange !important;
+  font-weight: 600 !important;
+  /* border: 0.5px solid orange !important; */
+}
+
+.become__driver-title {
+  font-size: 2rem !important;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 65px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.2rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .become__driver-title {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .become__driver {
+    padding: 50px 0px;
+  }
+
+  .become__driver-title {
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+  }
+
+  .become__driver-btn {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .become__driver-img {
+    display: none;
+  }
+  .become__driver {
+    text-align: center;
+  }
+}
